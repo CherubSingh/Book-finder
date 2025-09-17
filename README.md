@@ -24,23 +24,27 @@ Designed with **Alex (a college student)** in mind, the app makes it easy to qui
 
 ## 🚀 Setup Instructions
 
-1. Clone the Repository
+1️⃣ **Clone the Repository**
 ```bash
 git clone https://github.com/your-username/book-finder.git
 cd book-finder
+```
 
-2. Install Dependencies
+2️⃣ Install Dependencies
+```bash
 npm install
+```
+3️⃣ Run the Development Server
+```bash
+npm run dev
+```
 
-3. Run the Development Server
-npm start
+This will start the app with Vite.
+Open your browser and go to the URL shown in the terminal (usually http://localhost:5173)
 
-
-This will start the app
-
-
-🔮 Future Improvements
-
+---
+##🔮 Future Improvements
+---
 📑 Pagination / Load More – Support browsing more results from the API.
 
 ⭐ Favorites – Allow users to bookmark and save books (local storage).
